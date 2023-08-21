@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="26557218-8634-4872-830b-b78adb6c31aa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/User.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/FileProcessor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -91,7 +88,9 @@
       <option name="presentableId" value="Default" />
       <updated>1692523658156</updated>
       <workItem from="1692523658817" duration="5148000" />
-      <workItem from="1692537342010" duration="2091000" />
+      <workItem from="1692537342010" duration="3146000" />
+      <workItem from="1692582061008" duration="614000" />
+      <workItem from="1692582990362" duration="886000" />
     </task>
     <servers />
   </component>
