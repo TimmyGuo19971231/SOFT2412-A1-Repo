@@ -12,8 +12,8 @@ import java.util.Scanner;
 public class FileProcessor {
     public boolean writeData(String username,String password,String filepath){
         try{
-            Writer writer = new FileWriter(filepath);
-            writer.write(username + "," + password + ",U");
+            Writer writer = new FileWriter(filepath,true);
+            writer.write("\n" + username + "," + password + ",U");
             writer.close();
             return true;
         }catch (Exception e){
