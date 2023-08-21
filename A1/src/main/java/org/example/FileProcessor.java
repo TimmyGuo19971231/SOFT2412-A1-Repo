@@ -21,7 +21,23 @@ public class FileProcessor {
         }
     }
 
-    public List<List<String>> readData(String filepath){
+    public List<String> readMenuData(String filepath){
+        try{
+            Reader r = new FileReader(filepath);
+            Scanner sc = new Scanner(r);
+            List<String> menu = new ArrayList<>();
+            while (sc.hasNextLine()){
+                String data = sc.nextLine();
+                menu.add(data);
+            }
+            r.close();
+            return menu;
+        }catch (Exception e){
+            return null;
+        }
+    }
+
+    public List<List<String>> readUserData(String filepath){
         try{
             Reader reader = new FileReader(filepath);
             Scanner sc = new Scanner(reader);

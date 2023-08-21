@@ -24,7 +24,7 @@ public class App {
         Scanner scanner = new Scanner(System.in);
         String userName = scanner.nextLine();
         String password = scanner.nextLine();
-        List<List<String>> data = fp.readData(filepath);
+        List<List<String>> data = fp.readUserData(filepath);
         for (List<String> userData : data){
             if (userData.get(0).equalsIgnoreCase(userName) && userData.get(1).equals(password)){
                 return "A";
@@ -35,8 +35,8 @@ public class App {
     }
 
     public static void userBoard(){
-
+        // 1.create a user-friendly interface
+        // 2.user can read different items, check item's name, description and price
+        // 3.check the bill,pick in or delivery
     }
-
-
 }
