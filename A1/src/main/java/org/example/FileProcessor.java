@@ -12,6 +12,12 @@ import java.util.Scanner;
 public class FileProcessor {
     public boolean writeData(String username,String password,String filepath){
         try{
+            List<List<String>> userData = readUserData(filepath);
+            for (List<String> user: userData){
+                if (user.get(0).equals(username)){
+                    return false;
+                }
+            }
             Writer writer = new FileWriter(filepath,true);
             writer.write("\n" + username + "," + password + ",U");
             writer.close();

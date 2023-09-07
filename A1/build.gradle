@@ -19,8 +19,8 @@ dependencies {
 // used to test the code coverage
 jacocoTestReport {
     reports {
-        html.enabled = true
-        csv.enabled = true
+        xml.required = false
+        csv.required = false
     }
 }
 

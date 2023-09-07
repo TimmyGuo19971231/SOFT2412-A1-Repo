@@ -12,8 +12,10 @@ public class App {
     public static void main(String[] args) {
         if (askAccount().equals("A")){
             adminDashboard();
-        }else{
+        }else {
             userBoard();
+//            OrderMenu menu = new OrderMenu();
+//            menu.userInterface();
         }
     }
 
