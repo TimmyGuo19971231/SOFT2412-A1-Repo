@@ -1,8 +1,0 @@
-Main:
-Rice,Noodles,Hamburger
-Snack:
-Chocolate,Candy,Orange Juice
-Drink:
-Cola,Sprite,Fonda
-Fruit:
-Orange,Watermelon,Apple
